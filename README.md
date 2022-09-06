@@ -1,23 +1,24 @@
 # Test2022LondonADBv2
-description for 2022 London ADB Haha
+## description for 2022 London ADB Haha
 
 APP Objective
 
 illustration
  
-APP screenshot
+ ![screenshot](https://i.ibb.co/9V31cZp/app-screenshot.jpg)
+##### APP screenshot
 
-Sensor On/Off
-Detected Distance
-Levelmeter
-meter Display/Hidden
-wavelength frequency gain
-wave form
-generated wavelength frequency Range
-Detected Distance Range
-live frequency wavelength
-Sound Recorder
-Message Log
+1. Sensor On/Off
+2. Detected Distance
+3. Levelmeter
+4. meter Display/Hidden
+5. wavelength frequency gain
+6. wave form
+7. generated wavelength frequency Range
+8. Detected Distance Range
+9. live frequency wavelength
+10. Sound Recorder
+11. Message Log
 
 input
 
@@ -41,17 +42,17 @@ public String composeSuffix(float dist1, float d2, int freq1, int f2, int gain) 
 
    return suf;
 
-
-
-
 ENGLISH 
 seeTerabee implement
 
-
 Android x.0 (tested)
+
 Distance Sensor : Terabee Evo X0 
 
-Source References
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 AAudio Engine
 .wav file writer 
 
