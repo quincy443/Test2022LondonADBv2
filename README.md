@@ -12,32 +12,43 @@ The initial solution is that any low budget LIDAR device controlled by Arudino s
 Our solution here, however, is less demanding on the hardware knowledges; Using Terabee distance sensor 
 prefabricated with Android API indeed has the advantage of using non-disturbive infra-red ray.
 
+## The APP
+
 <img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250">
+
 ##### APP screenshot
 
 1. Sensor On/Off
 2. Detected Distance
-3. Levelmeter
-4. meter Display/Hidden
+3. Bubble Level
+4. Bubble Level On/OFf
 5. wavelength frequency gain
 6. wave form
 7. generated wavelength frequency Range
 8. Detected Distance Range
-9. live frequency wavelength
-10. Sound Recorder
-11. Message Log
-
-input
-
-bubble level to keep phone lay flat
+9. Maximum Distance
+10. live frequency wavelength
+11. Sound Recorder
+12. Message Log
 
 
+### A. Distance Sensor _(1)(2)_ 
 
-output control
+Terabee Distance sensor is connected to the smartphone via USB cable. The tested sensor has a maximum range of 60 meter, but 
+as observed buildings in Hong Kong have "ceilings" of height ranged from 2 meters to X.
 
+### B. Bubble Level _(3)(4)_ 
 
+As the user needs to be in a constant pace walking to operate the app, bubble level, which is based on internal built-in accelerometer of 
+common smartphones, is to guide the user to keep phone lay as flat as possible in order to acquire relatively accurate data. 
 
-## Output Files
+### C. Sonic Input / Output Parameters _(7)(8)(9).(6)_
+
+Live distance data feed whose range of diatance (in meters) is estimated in advance at sites. 
+The range of distance will be correpsonded straightforwardly to desirable range of sound determined solely by its wavelength. 
+The waveform has the option of sine, triangular, chainsaw, and ... User could change the option by touching on the waveform image _(6)_.
+
+### D. Recording _(11)(7)_
 
 Two files are created when the reocording feature is invoked, which 
 are accessible at _/android/data/com.distance2noise/files/audio/_ :
@@ -57,7 +68,7 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
    The csv file contains distance data from live feed via distance sensor.
    
    Filename example:
-   _aud211130_081256.csv_
+   _dis211130_081256.csv_
  
 |dis| 211130_081256|.csv |
 |---|--------------|---- |
@@ -78,9 +89,6 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
 
 <img src="https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg" height="250">
 #### _visualized distance chart based on .csv file_
-
-ENGLISH 
-see Terabee implement
 
 
 ## Tested Platform
