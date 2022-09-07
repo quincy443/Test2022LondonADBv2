@@ -1,6 +1,5 @@
 # Test2022LondonADBv2
-## description for 2022 London ADB Haha
-
+## 
 APP Objective
 
 illustration
@@ -30,19 +29,24 @@ output control
 
 
 
-# output file
+# output files
+
+Two files are created when the reocord button is invoked :
+
 1. .wav audio file
- 
-   filename example:
+   This is a simple audio file in uncompressed .wav format which was recorded by the APP
+  
+   Filename example:
 
-_aud211130_081256d0106f00402500g3.wav_
+   _aud211130_081256d0106f00402500g3.wav_
  
-|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
-|---|--------------|-|----|-|---------|-|-|---- |
-|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
+   |aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
+   |---|--------------|-|----|-|---------|-|-|---- |
+   |   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
 
-.csv 
-file naming convention
+2. .csv file  
+   The csv file contains distance data from live feed via distance sensor
+   file naming convention
 
 ![demo distance](https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg)
 
@@ -50,7 +54,7 @@ _visualized distance chart from .csv file_
 
 
 ENGLISH 
-seeTerabee implement
+see Terabee implement
 
 Android x.0 (tested)
 
