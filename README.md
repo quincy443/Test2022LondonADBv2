@@ -14,7 +14,7 @@ prefabricated with Android API indeed has the advantage of using non-disturbive 
 
 ## The APP
 ### [DOWNLOAD](https://play.google.com/store/games?hl=en&gl=US)
-
+ 
 <img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250" border="0">
 
 _APP screenshot_
