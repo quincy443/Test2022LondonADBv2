@@ -1,6 +1,5 @@
-# Test2022LondonADBv2
-## 
-APP Objective
+# Project Umbrella 2022
+## OBJECTIVE
 
 illustration
  
@@ -29,36 +28,58 @@ output control
 
 
 
-# output files
+## Output Files
 
-Two files are created when the reocord button is invoked :
+Two files are created when the reocording feature is invoked, which 
+are accessible at _/android/data/com.distance2noise/files/audio/_ :
 
 1. .wav audio file
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a simple audio file in uncompressed .wav format which was recorded by the APP
+ 
+   This is a simple audio file in uncompressed .wav format which was recorded by the APP
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filename example:
-
+   Filename example:
    _aud211130_081256d0106f00402500g3.wav_
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---|--------------|-|----|-|---------|-|-|---- |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
+|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
+|---|--------------|-|----|-|---------|-|-|---- |
+|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
 
 2. .csv file  
-   The csv file contains distance data from live feed via distance sensor
-   file naming convention
+   The csv file contains distance data from live feed via distance sensor.
+   
+   Filename example:
+   _aud211130_081256.csv_
+ 
+|dis| 211130_081256|.csv |
+|---|--------------|---- |
+|   | 2021 Nov 30 8:12:56| |
+   
+   
+   Regardless of data bandwidth, distance in meter will be constantly recorded 600 times per minute.
+   
+   Data format of the csv is simply as follows:
+   
+      creation timestamp (hhmm_hhssmm)
+      distance 1 
+      distance 2
+      ...
+    
+    A visualized height of the "ceiling" along the pedestian street could thus be visualized 
+    as distance data could be remapped, easily by Google Sheets, as chart like the following:
 
 ![demo distance](https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg)
-
-_visualized distance chart from .csv file_
-
+####_visualized distance chart based on .csv file_
 
 ENGLISH 
 see Terabee implement
 
-Android x.0 (tested)
 
-Distance Sensor : Terabee Evo X0 
+## Tested Platform
+
+Operating System: Android x.0 (tested)
+Distance Sensor : Terabee TeraRange Evo X0 
+
+## Source References
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
@@ -66,5 +87,7 @@ rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/gett
 
 AAudio Engine
 .wav file writer 
+
+
 
 
