@@ -33,7 +33,7 @@ output control
 Two files are created when the reocording feature is invoked, which 
 are accessible at _/android/data/com.distance2noise/files/audio/_ :
 
-1. .wav audio file
+### 1. .wav audio file
  
    This is a simple audio file in uncompressed .wav format which was recorded by the APP
   
@@ -44,7 +44,7 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
 |---|--------------|-|----|-|---------|-|-|---- |
 |   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
 
-2. .csv file  
+### 2. .csv file  
    The csv file contains distance data from live feed via distance sensor.
    
    Filename example:
@@ -77,6 +77,7 @@ see Terabee implement
 ## Tested Platform
 
 Operating System: Android x.0 (tested)
+
 Distance Sensor : Terabee TeraRange Evo X0 
 
 ## Source References
@@ -86,6 +87,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 AAudio Engine
+
 .wav file writer 
 
 
