@@ -13,11 +13,11 @@ Our solution here, however, is less demanding on the hardware knowledges; Using 
 prefabricated with Android API indeed has the advantage of using non-disturbive infra-red ray.
 
 ## The APP
+### [DOWNLOAD](https://play.google.com/store/games?hl=en&gl=US)
 
-<img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250">
+<img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250" border="0">
 
-##### APP screenshot
-
+_APP screenshot_
 1. Sensor On/Off
 2. Detected Distance
 3. Bubble Level
