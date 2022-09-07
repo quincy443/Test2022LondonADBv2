@@ -1,9 +1,18 @@
 # Project Umbrella 2022
 ## OBJECTIVE
 
-illustration
- 
-[screenshot](https://i.ibb.co/9V31cZp/app-screenshot.jpg)
+### Question:
+
+As one walks along the streets in Hong Kong, how to measure the height of the various "roofs" of the buildings, and simultiously
+transform it into sonic experience?
+
+### Answer:
+
+The initial solution is that any low budget LIDAR device controlled by Arudino should get the job done. 
+Our solution here, however, is less demanding on the hardware knowledges; Using Terabee distance sensor 
+prefabricated with Android API indeed has the advantage of using non-disturbive infra-red ray.
+
+<img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250">
 ##### APP screenshot
 
 1. Sensor On/Off
@@ -64,11 +73,11 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
       distance 2
       ...
     
-    A visualized height of the "ceiling" along the pedestian street could thus be visualized 
+    Various heights of the "ceiling" along the pedestian street could thus be visualized 
     as distance data could be remapped, easily by Google Sheets, as chart like the following:
 
-![demo distance](https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg)
-####_visualized distance chart based on .csv file_
+<img src="https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg" height="250">
+#### _visualized distance chart based on .csv file_
 
 ENGLISH 
 see Terabee implement
