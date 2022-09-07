@@ -5,7 +5,7 @@ APP Objective
 
 illustration
  
- ![screenshot](https://i.ibb.co/9V31cZp/app-screenshot.jpg)
+[screenshot](https://i.ibb.co/9V31cZp/app-screenshot.jpg)
 ##### APP screenshot
 
 1. Sensor On/Off
@@ -23,24 +23,31 @@ illustration
 input
 
 bubble level to keep phone lay flat
+
+
+
 output control
-output
-.wav
+
+
+
+# output file
+1. .wav audio file
+ 
+   filename example:
+
+_aud211130_081256d0106f00402500g3.wav_
+ 
+|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
+|---|--------------|-|----|-|---------|-|-|---- |
+|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
 
 .csv 
 file naming convention
 
+![demo distance](https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg)
 
-public String composeSuffix(float dist1, float d2, int freq1, int f2, int gain) {
-   String suf="";
-   suf+="d"+new DecimalFormat("00").format((int)dist1)
-           +new DecimalFormat("00").format((int)d2)
-           +"f"
-           +new DecimalFormat("0000").format(freq1)
-           +new DecimalFormat("0000").format(f2)
-           +"g"+gain;
+_visualized distance chart from .csv file_
 
-   return suf;
 
 ENGLISH 
 seeTerabee implement
