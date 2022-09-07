@@ -34,15 +34,15 @@ output control
 Two files are created when the reocord button is invoked :
 
 1. .wav audio file
-   This is a simple audio file in uncompressed .wav format which was recorded by the APP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a simple audio file in uncompressed .wav format which was recorded by the APP
   
-   Filename example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filename example:
 
    _aud211130_081256d0106f00402500g3.wav_
  
-   |aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
-   |---|--------------|-|----|-|---------|-|-|---- |
-   |   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---|--------------|-|----|-|---------|-|-|---- |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
 
 2. .csv file  
    The csv file contains distance data from live feed via distance sensor
