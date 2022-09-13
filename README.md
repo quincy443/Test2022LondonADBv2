@@ -91,11 +91,11 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
 #### _visualized distance chart based on .csv file_
 
 
-## Tested Platform
+## Tested Platform and Hardware
 
-Operating System: Android x.0 (tested)
+Operating System: Android 8.0.0 
 
-Distance Sensor : Terabee TeraRange Evo X0 
+Distance Sensor : Terabee TeraRange Evo 60m 
 
 ## Source References
 
