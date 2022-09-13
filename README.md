@@ -21,7 +21,7 @@ _APP screenshot_
 1. Sensor On/Off
 2. Detected Distance
 3. Bubble Level
-4. Bubble Level On/OFf
+4. Bubble Level On/Off
 5. wavelength frequency gain
 6. wave form
 7. generated wavelength frequency Range
