@@ -3,7 +3,7 @@
 
 ### Question:
 
-As one walks along the streets in Hong Kong, how to measure the height of the various "roofs" of the buildings, and simultiously
+As one walks along the streets in Hong Kong, how to measure the height of the various "roofs" of the buildings, and simultineously
 transform it into sonic experience?
 
 ### Answer:
