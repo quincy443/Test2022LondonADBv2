@@ -18,18 +18,18 @@ prefabricated with Android API indeed has the advantage of using non-disturbive 
 <img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250" border="0">
 
 _APP screenshot_
-1. Sensor On/Off
-2. Detected Distance
-3. Bubble Level
-4. Bubble Level On/Off
+1. sensor on/off
+2. detected distance
+3. bubble level
+4. bubble level on/off
 5. wavelength frequency gain
 6. wave form
-7. generated wavelength frequency Range
-8. Detected Distance Range
-9. Maximum Distance
+7. generated wavelength frequency range
+8. detected distance range
+9. maximum distance
 10. live frequency wavelength
-11. Sound Recorder
-12. Message Log
+11. sound recorder
+12. message log
 
 
 ### A. Distance Sensor _(1)(2)_ 
@@ -53,7 +53,7 @@ The waveform has the option of sine, triangular, chainsaw, and ... User could ch
 Two files are created when the reocording feature is invoked, which 
 are accessible at _/android/data/com.distance2noise/files/audio/_ :
 
-### 1. .wav audio file
+### 1. .wav audio file _(7)(8)(5)_ 
  
    This is a simple audio file in uncompressed .wav format which was recorded by the APP
   
