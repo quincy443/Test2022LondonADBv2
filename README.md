@@ -9,7 +9,7 @@ transform it into sonic experience?
 ### Answer:
 
 The initial solution is that any low budget LIDAR device controlled by Arudino should get the job done. 
-Our solution here, however, is less demanding on the hardware knowledges; Using Terabee distance sensor 
+Final solution here, however, is less demanding on the hardware knowledges; using Terabee distance sensor 
 prefabricated with Android API indeed has the advantage of using non-disturbive infra-red ray.
 
 ## The APP
