@@ -99,13 +99,11 @@ Distance Sensor : Terabee TeraRange Evo 60m
 
 ## Source References
 
-This site was built using [GitHub Pages](https://pages.github.com/).
-
 rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 AAudio Engine
 
-.wav file writer 
+
 
 
 
