@@ -42,7 +42,7 @@ as observed buildings in Hong Kong have "ceilings" of height ranged from 2 meter
 As the user needs to be in a constant pace walking to operate the app, bubble level, which is based on internal built-in accelerometer of 
 common smartphones, is to guide the user to keep phone lay as flat as possible in order to acquire relatively accurate data. 
 
-### C. Sonic Input / Output Parameters _(7)(8)(9).(6)_
+### C. Sonic Input / Output Parameters _(7)(8)(9),(6)_
 
 Live distance data feed whose range of diatance (in meters) is estimated in advance at sites. 
 The range of distance will be correpsonded straightforwardly to desirable range of sound determined solely by its wavelength. 
