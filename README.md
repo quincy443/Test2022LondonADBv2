@@ -101,7 +101,7 @@ Distance Sensor : Terabee TeraRange Evo 60m
 
 rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-AAudio Engine
+[AAudio Engine](https://developer.android.com/ndk/guides/audio/aaudio/aaudio)
 
 
 
