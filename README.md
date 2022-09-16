@@ -11,7 +11,7 @@ Have their voices heard, as simple as that ? my english is fucking weak.
 
 The initial solution is that any low budget LIDAR device controlled by Arduino could get the job done. 
 Final solution here, however, is less demanding on the hardware knowledges; using Terabee distance sensor 
-prefabricated with Android API indeed has the advantage of using non-disturbive infra-red ray.
+prefabricated with Android API indeed has the advantage of using less disturbing infra-red ray.
 
 ## The APP
 ### [DOWNLOAD](https://play.google.com/store/games?hl=en&gl=US)
