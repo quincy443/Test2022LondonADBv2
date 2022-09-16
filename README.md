@@ -3,8 +3,7 @@
 
 ### Question:
 
-As one walks along the streets in Hong Kong, how to measure the height of the various "roofs" of the buildings, and simultineously
-transform it into sonic experience?
+In Hong Kong existing Chinese tenements (Tong Lau) built before 1930 are rare, and thus historical and precious; those multi-storey tenements made of reinforced concrete are taller, relatively common and sculpting our spatial experience of the urban area. The technical objective is to measure the height of the various roofs of these Chinese tenements, meanwhile transforming live data into sonic experience.
 
 ### Answer:
 
