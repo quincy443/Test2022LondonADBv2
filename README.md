@@ -18,18 +18,21 @@ prefabricated with Android API indeed has the advantage of using non-disturbive 
 <img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250" border="0">
 
 _APP screenshot_
-1. sensor on/off
-2. detected distance
-3. bubble level
-4. bubble level on/off
-5. wavelength frequency gain
-6. wave form
-7. generated wavelength frequency range
-8. detected distance range
-9. maximum distance
-10. live frequency wavelength
-11. sound recorder
-12. message log
+
+||  |
+|---|--------------- |
+|1. | sensor on/off |
+|2. | detected distance|
+|3. | bubble level|
+|4. | bubble level on/off |
+|5. | wavelength frequency gain |
+|6. | wave form |
+|7. | generated wavelength frequency range |
+|8. | detected distance range |
+|9. | maximum distance |
+|10. | live frequency wavelength |
+|11. | sound recorder |
+|12. | message log |
 
 
 ### A. Distance Sensor _(1)(2)_ 
@@ -54,44 +57,44 @@ Two files are created when the reocording feature is invoked, which
 are accessible at _/android/data/com.distance2noise/files/audio/_ :
 
 ### 1. .wav audio file _(7)(8)(5)_ 
- 
-   This is a simple audio file in uncompressed .wav format which was recorded by the APP
-  
-   Filename example:
-   _aud211130_081256d0106f00402500g3.wav_
- 
-|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
-|---|--------------|-|----|-|---------|-|-|---- |
-|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
-
+>This is a simple audio file in uncompressed .wav format which was recorded by the APP
+>  
+>Filename example:
+>_aud211130_081256d0106f00402500g3.wav_
+> 
+>|aud| 211130_081256|d|0106|f|f00402500|g|3|.wav |
+>|---|--------------|-|----|-|---------|-|-|---- |
+>|   | 2021 Nov 30 8:12:56|distance|1-6m|frequency|40 - 2580Hz|amplitude gain|x3| |
+>
 ### 2. .csv file  
-   The csv file contains distance data from live feed via distance sensor.
-   
-   Filename example:
-   _dis211130_081256.csv_
- 
-|dis| 211130_081256|.csv |
-|---|--------------|---- |
-|   | 2021 Nov 30 8:12:56| |
-   
-   
-   Regardless of data bandwidth, distance in meter will be constantly recorded 600 times per minute.
-   
-   Data format of the csv is simply as follows:
-   
-|line| value |
-|---|---------- |
-| 1  | Creation Timestamp (hhmm_hhssmm) |
-| 2  |  distance 1 |   
-| 3  |  distance 2 |   
-| 4  |  ... |   
+>The csv file contains distance data from live feed via distance sensor.
+>   
+>Filename example:
+>_dis211130_081256.csv_
+> 
+>|dis| 211130_081256|.csv |
+>|---|--------------|---- |
+>|   | 2021 Nov 30 8:12:56| |
+>   
+>Regardless of data bandwidth, distance in meter will be constantly
+>recorded 600 times per minute.
 
-    
-   Various heights of the "ceiling" along the pedestian street could thus be visualized 
-   as distance data could be remapped, easily by Google Sheets, as chart like the following:
-
-<img src="https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg" height="250">
-###_visualized distance chart based on .csv file_
+>Data format of the csv is simply as follows:
+>   
+>|line| value |
+>|---|---------- |
+>| 1  | Creation Timestamp (hhmm_hhssmm) |
+>| 2  |  distance 1 |   
+>| 3  |  distance 2 |   
+>| 4  |  ... |   
+>   
+>Heights of the roof of different Chinese tenements along the pedestian pathways could thus be visualized 
+>as distance data could be remapped, easily by Google Sheets, as chart like the following:
+>
+>#### Example Visualized Distance Chart (based on .csv file)
+><img src="https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg" height="250">
+>
+>
 
 
 ## Tested Platform and Hardware
