@@ -79,16 +79,19 @@ are accessible at _/android/data/com.distance2noise/files/audio/_ :
    
    Data format of the csv is simply as follows:
    
-      creation timestamp (hhmm_hhssmm)
-      distance 1 
-      distance 2
-      ...
+|line| value |
+|---|---------- |
+| 1  | Creation Timestamp (hhmm_hhssmm) |
+| 2  |  distance 1 |   
+| 3  |  distance 2 |   
+| 4  |  ... |   
+
     
-    Various heights of the "ceiling" along the pedestian street could thus be visualized 
-    as distance data could be remapped, easily by Google Sheets, as chart like the following:
+   Various heights of the "ceiling" along the pedestian street could thus be visualized 
+   as distance data could be remapped, easily by Google Sheets, as chart like the following:
 
 <img src="https://i.ibb.co/R4DTWF4/sketch-1662554043749.jpg" height="250">
-#### _visualized distance chart based on .csv file_
+###_visualized distance chart based on .csv file_
 
 
 ## Tested Platform and Hardware
