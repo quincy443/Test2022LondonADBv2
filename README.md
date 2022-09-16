@@ -5,8 +5,6 @@
 
 In Hong Kong existing Chinese tenements (Tong Lau) built before 1930 are rare, and thus historical and precious; those multi-storey tenements made of reinforced concrete are taller and relatively common. They still construct the everyday sensual experiences of our urban passageways. The technical objective is to measure the height of the various roofs, or verandah, of these Chinese tenements, meanwhile transforming live data into sonic experience.
 
-Have their voices heard, as simple as that ? my english is fucking weak.
-
 ### Answer:
 
 The initial solution is that any low budget LIDAR device controlled by Arduino could get the job done. 
@@ -110,10 +108,6 @@ Distance Sensor : Terabee TeraRange Evo 60m
 >[.WAV Soundfile Format ](http://soundfile.sapp.org/doc/WaveFormat/)
 
 
-
-
-
-rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 
