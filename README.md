@@ -49,7 +49,7 @@ common smartphones, is to guide the user to keep phone lay as flat as possible i
 
 Live distance data feed whose range of diatance (in meters) is estimated in advance at sites. 
 The range of distance will be correpsonded straightforwardly to desirable range of sound determined solely by its wavelength. 
-The waveform has the option of sine, triangular, chainsaw, and ... User could change the option by touching on the waveform image _(6)_.
+The waveform has the options of sine, triangular, sawtooth and pulse. User could change the option by touching on the waveform image _(6)_.
 
 ### D. Recording _(11)(7)_
 
