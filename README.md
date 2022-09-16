@@ -103,13 +103,17 @@ Operating System: Android 8.0.0
 
 Distance Sensor : Terabee TeraRange Evo 60m 
 
-## Source References
+## References
+
+>[AAudio Engine](https://developer.android.com/ndk/guides/audio/aaudio/aaudio)
+
+>[.WAV Soundfile Format ](http://soundfile.sapp.org/doc/WaveFormat/)
+
+
+
+
 
 rundown [tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-[AAudio Engine](https://developer.android.com/ndk/guides/audio/aaudio/aaudio)
-
-
 
 
 
