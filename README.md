@@ -38,8 +38,7 @@ _APP screenshot_
 
 ### A. Distance Sensor _(1)(2)_ 
 
-Terabee Distance sensor is connected to the smartphone via USB cable. The tested sensor has a maximum range of 60 meter, but 
-as observed buildings in Hong Kong have "ceilings" of height ranged from 2 meters to X.
+Terabee Distance sensor is connected to the smartphone via USB cable. The tested sensor has a maximum range of 60 meter. Personal observation concluded that the height of the extended roof of Chinese tenements in Hong Kong is below 12 meters.
 
 ### B. Bubble Level _(3)(4)_ 
 
