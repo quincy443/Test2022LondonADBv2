@@ -3,7 +3,7 @@
 
 ### Question:
 
-In Hong Kong existing Chinese tenements (Tong Lau) built before 1930 are rare, and thus historical and precious; those multi-storey tenements made of reinforced concrete are taller and relatively common. They still construct the everyday sensual experiences of our urban passageways. The technical objective is to measure the height of the various roofs, or verandah, of these Chinese tenements, meanwhile transforming live data into sonic experience.
+In Hong Kong existing Chinese tenements (Tong Lau) built before 1930 are rare, and thus historical and precious; those multi-storey tenements made of reinforced concrete are taller and relatively common. They still contribute to our everyday urban sensual experiences. The technical objective is to measure the height of the various roofs, or verandah, of these Chinese tenements, meanwhile transforming live data into sonic experience.
 
 ### Answer:
 
