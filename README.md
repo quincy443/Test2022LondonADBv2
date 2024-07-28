@@ -1,18 +1,14 @@
-# Project Umbrella 2022
+# APP for Art Project Umbrella 
+ (2020-2024)
+ created by Qohtaiwoo.net 
+
 ## OBJECTIVE
 
-### Question:
-
-In Hong Kong existing Chinese tenements (Tong Lau) built before 1930 are rare, and thus historical and precious; those multi-storey tenements made of reinforced concrete are taller and relatively common. They still contribute to our everyday urban sensual experiences. The technical objective is to measure the height of the various roofs, or verandah, of these Chinese tenements, meanwhile transforming live data into sonic experience.
-
-### Answer:
-
-The initial solution is that any low budget LIDAR device controlled by Arduino could get the job done. 
-Final solution here, however, is less demanding on the hardware knowledges. Terabee distance sensor 
-prefabricated with Android API indeed also has the advantage of using less disturbing infra-red ray.
+When one walks pass any Tong Lau (pre-WWII residential buildings) in Hong Kong, a device is needed to measure the distance between one's own bodies and the cellings of
+erected portion which construct the canopy of the footpath above one's head. The hardware solution provided here is to use the manufactured range finder which provides API for smartphone.
+The use of the custom APP then transform the live measured data into audio experience. T
 
 ## The APP
-### [DOWNLOAD](https://play.google.com/store/games?hl=en&gl=US)
  
 <img src="https://i.ibb.co/NsGNQdx/app-screenshot.jpg" width="250" border="0">
 
